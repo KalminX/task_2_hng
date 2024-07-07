@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "core/wsgi.py"
+      "dest": "user_auth_and_org/wsgi.py"
     }
   ]
 }
