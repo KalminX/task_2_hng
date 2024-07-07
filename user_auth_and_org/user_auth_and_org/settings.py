@@ -80,7 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'defaultdb',
-        'USER': 'myprojectuser',
+        'USER': 'avnadmin',
         'PASSWORD': 'AVNS_X8_Jo3axl3-nX8dukSt',
         'HOST': 'pg-2786152f-kalmin.k.aivencloud.com',
         'PORT': '28872',
@@ -136,5 +136,3 @@ REST_FRAMEWORK = {
     ],
 }
 
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
